@@ -1,30 +1,27 @@
 <script>
-	export let name;
+  import Header from './components/Header.svelte';
+  import Footer from './components/Footer.svelte';
+  import About from './components/About.svelte';
+  import Projects from './components/Projects.svelte';
+  import Experience from './components/Experience.svelte';
+  import Contact from './components/Contact.svelte';
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+  <Header />
+  <About />
+  <Projects />
+  <Experience />
+  <Contact />
+  <Footer />
 </main>
 
 <style>
-	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
-	}
-
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
-	}
+  main {
+    font-family: 'Overpass Mono', monospace;
+    color: #D2EAED;
+    font-weight: 300;
+    max-width: 880px;
+    margin: 40px auto;
+  }
 </style>
