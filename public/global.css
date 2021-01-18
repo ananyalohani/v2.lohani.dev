@@ -16,6 +16,10 @@ body {
     Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
 }
 
+a {
+  color: inherit;
+}
+
 label {
   display: block;
 }
