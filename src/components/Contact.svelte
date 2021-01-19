@@ -1,6 +1,13 @@
 <script>
   import Heading from '../shared/Heading.svelte';
   let headingText="Contact";
+
+  const resetForm = () => {
+    // prevent
+    document.getElementById('#fullname').value = '';
+    document.getElementById('#email').value = '';
+    document.getElementById('#text-input').value = '';
+  }
 </script>
 
 <div id="contact">
@@ -41,17 +48,17 @@
   <form class="contact-form" action="https://formspree.io/f/xwkwyvar" method="POST">
     <label for="fullname">Name *</label>
     <br/>
-    <input class="text-input" id="fullname" type="text" placeholder="Your name" required/>
+    <input class="text-input" id="fullname" type="text" name="fullname" placeholder="Your name" required/>
     <br/>
     <label for="email">Email *</label>
     <br/>
-    <input class="text-input" id="email" type="text" placeholder="Your email address" required/>
+    <input class="text-input" id="email" type="text" name="email" placeholder="Your email address" required/>
     <br/>
     <label for="message">Message *</label>
     <br/>
-    <textarea class="text-input" rows="7" placeholder="Your message" required></textarea>
+    <textarea class="text-input" id="text-input" rows="7" name="message" placeholder="Your message" required></textarea>
     <br/>
-    <button>Send</button>
+    <button type="submit">Send</button>
   </form>
 </div>
 
