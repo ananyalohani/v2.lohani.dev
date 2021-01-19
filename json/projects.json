@@ -1,15 +1,15 @@
 [
   {
     "title": "Color Switch",
-    "logo": "./public/images/project-logos/ColorSwitch.png",
+    "logo": "../images/project-logos/ColorSwitch.png",
     "duration": "Nov '20 - Dec '20",
-    "description": "A clone of the popular game Color Switch for desktop. Used concepts of Object-Oriented and Event-Driven programming. Worked in a team of 2.",
+    "description": "A clone of the popular game Color Switch for desktop. Utilised concepts of Object-Oriented and Event-Driven programming. Worked in a team of 2.",
     "technologies": ["Java", "JavaFX", "FXML", "CSS", "SceneBuilder"],
     "link": "https://github.com/ananyalohani/color-switch-java"
   },
   {
     "title": "lohanish",
-    "logo": "./public/images/project-logos/lohanish.png",
+    "logo": "../images/project-logos/lohanish.png",
     "duration": "Sep '20 - Oct '20",
     "description": "Coded a Linux shell called 'lohanish' implementing a total of 30 commands using C. Utilised several standard C and Linux libraries.",
     "technologies": ["C", "Linux"],
@@ -17,7 +17,7 @@
   },
   {
     "title": "Perceptris",
-    "logo": "./public/images/project-logos/Perceptris.png",
+    "logo": "../images/project-logos/Perceptris.png",
     "duration": "Aug '19 - Sep '19",
     "description": "Built a futuristic version of the game Tetris which uses ultrasonic and touch sensors along with LED bulbs to make the game more human-interactive. Can be played in both Single and Multiplayer modes. Worked in a team of 3 under the guidance of Dr. Aman Parnami.",
     "technologies": ["C++", "Processing", "Arduino"],

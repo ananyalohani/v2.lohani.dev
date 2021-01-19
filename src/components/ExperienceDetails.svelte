@@ -1,21 +1,15 @@
 <script>
   import Card from '../shared/Card.svelte';
-  export let project;
+  export let exp;
 </script>
 
-<div class="project-details">
+<div class="exp-details">
   <Card>
-    <img src={project.logo} alt={project.title + " logo"} />
+    <img src={exp.logo} alt={exp.company + " logo"} />
     <div class="body">
-      <h3><a href={project.link}>{project.title}</a></h3>
-      <p class="duration">{project.duration}</p>
-      <p>{project.description}</p>
-      <h4>Technologies Used:</h4>
-      <p>
-        {#each project.technologies as tech, i}
-          {tech}{i == project.technologies.length - 1 ? "" : ", "}
-        {/each}
-      </p>
+      <h3><a href={exp.link}>{exp.company}</a></h3>
+      <p class="duration">{exp.duration}</p>
+      <p>{exp.responsibilities}</p>
     </div>
   </Card>
 </div>

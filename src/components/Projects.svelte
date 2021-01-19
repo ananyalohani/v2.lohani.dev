@@ -1,14 +1,20 @@
 <script>
   import Heading from '../shared/Heading.svelte';
-  import projectData from '../../json/projects.json';
+  import ProjectDetails from './ProjectDetails.svelte';
+  import projects from '../../json/projects.json';
   let headingText="Projects";
-  console.log(projectData);
 </script>
 
 <div id="projects">
   <Heading {headingText} />
+  <p class="text">You can find all my projects on my <a href="https://github.com/ananyalohani/">GitHub account</a>. The most significant ones are mentioned below.</p>
+  {#each projects as project}
+    <ProjectDetails {project} />
+  {/each}
 </div>
 
 <style>
-  #projects {}
+  .text {
+    margin-top: 50px;
+  }
 </style>

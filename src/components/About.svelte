@@ -42,6 +42,8 @@
   .my-photo {
     height: 450px;
     width: 450px;
+    -webkit-filter: drop-shadow(0px 0px 20px rgba(0,0,0,0.25));
+    filter: drop-shadow(0px 0px 20px rgba(0,0,0,0.25));
   }
   
   p {
