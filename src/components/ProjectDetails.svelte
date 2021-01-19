@@ -28,11 +28,11 @@
   }
 
   img {
-    max-width: 120px;
-    max-height: 120px;
-    padding: 20px 40px;
-    -webkit-filter: drop-shadow(0px 0px 20px rgba(0,0,0,0.25));
-    filter: drop-shadow(0px 0px 20px rgba(0,0,0,0.25));
+    max-width: 140px;
+    max-height: 140px;
+    padding: 20px 20px 40px 20px;
+    -webkit-filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.25));
+    filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.25));
   }
 
   h3, h4 {
@@ -45,9 +45,35 @@
 
   a {
     text-decoration: none;
+    position: relative;
+  }
+
+  a::after {
+    content:"";
+    width: 100%;
+    height: 0;
+    display: block;
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    background: rgba(102, 165, 173, 0.5);
+    transition: all 0.3s ease-in-out;
+  }
+
+  a:hover::after {
+    height: 5px;
+  }
+
+  a:hover {
+    color: inherit;
+    background: transparent;
   }
 
   .duration {
     font-size:smaller;
+  }
+
+  .body {
+    padding-left: 20px;
   }
 </style>

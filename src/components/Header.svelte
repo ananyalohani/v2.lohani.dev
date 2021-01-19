@@ -44,7 +44,6 @@
     left: 0;
   }
 
-
   .navbar {
     background-color: #0E676B;
     padding: 9px;
@@ -62,11 +61,11 @@
     padding: 0;
   }
 
-  li {
+  a {
     position: relative;
   }
 
-  li::after {
+  a::after {
     content:"";
     width: 100%;
     height: 0;
@@ -78,8 +77,12 @@
     transition: all 0.3s ease-in-out;
   }
 
-  li:hover::after {
+  a:hover::after {
     height: 5px;
+  }
+
+  a:hover {
+    font-weight: 300;
   }
 
 </style>

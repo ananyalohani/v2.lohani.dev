@@ -13,6 +13,6 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    vertical-align: middle;
+    align-items: center;
   }
 </style>

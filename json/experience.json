@@ -1,6 +1,6 @@
 [
   {
-    "job-title": "Web Design Intern",
+    "jobTitle": "Web Design Intern",
     "company": "Vinci Stationery",
     "logo": "./images/company-logos/vinci-stationery.png",
     "duration": "Jan '21 - Present",
@@ -8,7 +8,7 @@
     "responsibilities": "Redesigned the website as well as restructured it. Utilised the Velo API by Wix to code customized elements- like the custom product carousel on the homepage."
   },
   {
-    "job-title": "Volunteer",
+    "jobTitle": "Volunteer",
     "company": "Vidyakansha",
     "logo": "./images/company-logos/vidyakansha.png",
     "duration": "Jul '20 - Sep '20",
