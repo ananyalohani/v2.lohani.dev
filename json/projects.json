@@ -22,13 +22,5 @@
     "description": "Built a futuristic version of the game Tetris which uses ultrasonic and touch sensors along with LED bulbs to make the game more human-interactive. Can be played in both Single and Multiplayer modes. Worked in a team of 3 under the guidance of Dr. Aman Parnami.",
     "technologies": ["C++", "Processing", "Arduino"],
     "link": "https://github.com/ananyalohani/Perceptris"
-  },
-  {
-    "title": "Perceptris",
-    "logo": "",
-    "duration": "Aug '19 - Sep '19",
-    "description": "Built a futuristic version of the game Tetris which uses ultrasonic and touch sensors along with LED bulbs to make the game more human-interactive. Can be played in both Single and Multiplayer modes. Worked in a team of 3 under the guidance of Dr. Aman Parnami.",
-    "technologies": ["C++", "Processing", "Arduino"],
-    "link": "https://github.com/ananyalohani/Perceptris"
   }
 ]
