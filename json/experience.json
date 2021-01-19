@@ -2,6 +2,7 @@
   {
     "job-title": "Web Design Intern",
     "company": "Vinci Stationery",
+    "logo": "./public/images/company-logos/vinci-stationery.png",
     "duration": "Jan '21 - Present",
     "link": "https://vincistationery.com/",
     "responsibilities": "Redesigned the website as well as restructured it. Utilised the Velo API by Wix to code customized elements- like the custom product carousel on the homepage."
@@ -9,6 +10,7 @@
   {
     "job-title": "Volunteer",
     "company": "Vidyakansha",
+    "logo": "./public/images/company-logos/vidyakansha.png",
     "duration": "Jul '20 - Sep '20",
     "link": "https://www.vidyakansha.org/",
     "responsibilities": "Contributed towards providing free and quality education to 460 children in 28 villages across India. Conducted live online classes in English and Mathematics for elementary and middle school students adversely affected by COVID-19."
