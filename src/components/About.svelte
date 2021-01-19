@@ -1,5 +1,5 @@
 <script>
-  import Heading from './Heading.svelte';
+  import Heading from '../shared/Heading.svelte';
   let headingText = "About";
 </script>
 
@@ -10,7 +10,7 @@
     <p class="about-me">Hello, I am Ananya. Welcome to my website!
       <br/>
       <br/>
-      I am a Sophomore at <a href="https://iiitd.ac.in/" target="_blank">IIIT Delhi</a>, majoring in Computer Science and Engineering. My recent interests include web development and UI/UX design. I am currently a Web Design intern at <a href="https://vincistationery.com" target="_blank">Vinci Stationery</a>.
+      I am a 2nd year undergrad student at <a href="https://iiitd.ac.in/" target="_blank">IIIT Delhi</a>, majoring in Computer Science and Engineering. My recent interests include web development and UI/UX design. I am currently a Web Design intern at <a href="https://vincistationery.com" target="_blank">Vinci Stationery</a>.
       <br/>
       <br/>
       I paint, sometimes. You can see all my artwork on my <a href="https://www.instagram.com/lohani_art/" target="_blank">art account</a>.</p>
@@ -23,10 +23,7 @@
     margin-top: 40px;
     font-family: 'Overpass Mono', monospace;
     font-weight: 300;
-  }
-
-  a:hover {
-    color:#8db1b8;
+    margin-bottom: -20px;
   }
 
   .section-content {
@@ -35,6 +32,7 @@
     flex-direction: row;
     justify-content: center;
     vertical-align: middle;
+    line-height: 27px;
   }
 
   .about-me {

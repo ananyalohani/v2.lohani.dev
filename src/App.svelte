@@ -20,7 +20,7 @@
   main {
     font-family: 'Overpass Mono', monospace;
     color: #D2EAED;
-    font-weight: 300;
+    font-weight: 100;
     max-width: 880px;
     margin: 40px auto;
   }

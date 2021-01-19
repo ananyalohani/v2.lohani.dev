@@ -1,6 +1,6 @@
 <header>
   <div class="logo">
-    <img src="favicons/android-chrome-512x512.png" alt="Ichii Logo" />
+    <img src="images/favicons/android-chrome-512x512.png" alt="Ichii Logo" />
   </div>
   <div class="navbar">
     <ul>
