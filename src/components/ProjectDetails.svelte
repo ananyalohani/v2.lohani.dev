@@ -1,9 +1,14 @@
 <script>
   import Card from '../shared/Card.svelte';
   export let project;
+
+  import AOS from 'aos';
+  AOS.init({
+    duration: 1200,
+  });
 </script>
 
-<div class="project-details">
+<div class="project-details" data-aos="fade-up">
   <Card>
     <img src={project.logo} alt={project.title + " logo"} />
     <div class="body">
