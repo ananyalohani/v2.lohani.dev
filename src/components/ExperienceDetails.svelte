@@ -7,7 +7,7 @@
   <Card>
     <img src={exp.logo} alt={exp.company + " logo"} />
     <div class="body">
-      <h3><a href={exp.link}>{exp.company}</a></h3>
+      <h3><a href={exp.link} target="_blank">{exp.company}</a></h3>
       <p class="job-title">{exp.jobTitle}</p>
       <p class="duration">{exp.duration}</p>
       <p>{exp.responsibilities}</p>
@@ -30,7 +30,7 @@
     filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.25));
   }
 
-  h3, h4 {
+  h3 {
     font-family: 'Overpass', sans-serif;
     font-weight: 500;
     padding: 0;

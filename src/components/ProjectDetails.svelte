@@ -7,7 +7,7 @@
   <Card>
     <img src={project.logo} alt={project.title + " logo"} />
     <div class="body">
-      <h3><a href={project.link}>{project.title}</a></h3>
+      <h3><a href={project.link} target="_blank">{project.title}</a></h3>
       <p class="duration">{project.duration}</p>
       <p>{project.description}</p>
       <h4>Technologies Used:</h4>
