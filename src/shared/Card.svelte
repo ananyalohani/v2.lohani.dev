@@ -5,11 +5,9 @@
   });
 </script>
 
-
-<div class="card" data-aos="fade-up">
+<div class="card" data-aos="zoom-in-up">
   <slot></slot>
 </div>
-
 
 <style>
   .card {
