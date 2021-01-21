@@ -1,6 +1,6 @@
 <script>
   export let headingText;
-  export let invisibleOnPhone = true;
+  export let invisibleOnPhone = false;
 </script>
 
 <div class="section-heading" class:invisible={invisibleOnPhone}>
