@@ -1,4 +1,4 @@
-# [ananyalohani.me](https://ananyalohani.me)
+# ananyalohani.me
 
 My personal/portfolio website. Made using [Svelte](https://svelte.dev/).
 
