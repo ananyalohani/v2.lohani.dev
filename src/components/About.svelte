@@ -31,6 +31,7 @@
     display: flex;
     flex-direction: row;
     /* flex-wrap: wrap; */
+    align-items: center;
     justify-content: center;
     vertical-align: middle;
     line-height: 1.75;
@@ -41,8 +42,9 @@
   }
 
   .my-photo {
-    height: 450px;
-    width: 450px;
+    height: 350px;
+    width: 350px;
+    padding: 40px;
     -webkit-filter: drop-shadow(0px 0px 20px rgba(0,0,0,0.25));
     filter: drop-shadow(0px 0px 20px rgba(0,0,0,0.25));
   }
@@ -56,17 +58,19 @@
 
     .section-content {
       flex-direction: column;
+      align-items: center;
     }
 
     .my-photo {
-      height: 250px;
-      width: 250px;
+      height: 200px;
+      width: 200px;
       padding-top: 20px;
-      padding-left: 70px;
+      padding-bottom: 10px;
+      /* padding-left: 70px; */
     }
 
     .about-me {
-      padding-top: 0;
+      /* padding-top: 30px; */
       /* text-align: center; */
     }
 

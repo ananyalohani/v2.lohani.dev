@@ -41,7 +41,7 @@
 
   p {
     /* margin-left: 5px; */
-    padding-right: 5px;
+    /* padding-right: 5px; */
   }
 
   .logo-label {
@@ -62,18 +62,18 @@
 
   a::after {
     content:"";
-    width: 100%;
+    width: 94%;
     height: 0;
     display: inline;
     position: absolute;
     bottom: -15px;
-    left: 0;
+    left: 6px;
     background: rgba(102, 165, 173, 0.5);
-    transition: all 0.3s ease;
+    /* transition: all 0.3s ; */
   }
 
   a:hover::after {
-    height: 5px;
+    height: 6px;
   }
 
   a:hover {
