@@ -1,4 +1,4 @@
-My personal/portfolio website.
+My personal/portfolio website. Made using [Svelte](https://svelte.dev/).
 
 ## Development
 
