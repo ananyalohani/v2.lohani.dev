@@ -17,4 +17,11 @@
   .text {
     margin-top: 50px;
   }
+
+  /* Mobile Styling */
+  @media only screen and (max-width: 450px) {
+    #projects {
+      margin-top: 50px;
+    }
+  }
 </style>

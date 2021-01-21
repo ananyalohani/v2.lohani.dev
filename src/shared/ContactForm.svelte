@@ -93,4 +93,10 @@
     color: inherit;
     opacity: 0.5;
   }
+
+  @media only screen and (max-width: 450px) {
+    .text-input {
+      width: 300px;
+    }
+  }
 </style>

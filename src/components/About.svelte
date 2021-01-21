@@ -4,10 +4,10 @@
 </script>
 
 <div id="about">
-  <Heading {headingText} />
+  <!-- <Heading {headingText} /> -->
   <div class="section-content">
     <img class="my-photo" src="./images/my-photo.png" alt="Ananya Lohani"/>
-    <p class="about-me">Hello, I am Ananya. Welcome to my website!
+    <p class="about-me">Hello, I am Ananya Lohani. Welcome to my website!
       <br/>
       <br/>
       I am a 2nd year undergrad student at <a href="https://iiitd.ac.in/" target="_blank">IIIT Delhi</a>, majoring in Computer Science and Engineering. My recent interests include web development and UI/UX design. I am currently a Web Design intern at <a href="https://vincistationery.com" target="_blank">Vinci Stationery</a>.
@@ -32,11 +32,11 @@
     flex-direction: row;
     justify-content: center;
     vertical-align: middle;
-    line-height: 27px;
+    line-height: 1.75;
   }
 
   .about-me {
-    padding-top: 50px;
+    padding-top: 30px;
   }
 
   .my-photo {
@@ -48,6 +48,29 @@
   
   p {
     vertical-align: middle;
+  }
+
+  /* Mobile Styling */
+  @media only screen and (max-width: 450px) {
+    .section-content {
+      flex-wrap: wrap;
+    }
+
+    .my-photo {
+      height: 250px;
+      width: 250px;
+      padding-top: 20px;
+      padding-left: 20px;
+    }
+
+    .about-me {
+      padding-top: 0;
+      /* text-align: center; */
+    }
+
+    #about {
+      margin-top: 50px;
+    }
   }
 
 </style>

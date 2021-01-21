@@ -29,4 +29,10 @@
     justify-content: center;
     align-items: center;
   }
+
+  @media only screen and (max-width: 450px) {
+    .card {
+      flex-wrap: wrap;
+    }
+  }
 </style>

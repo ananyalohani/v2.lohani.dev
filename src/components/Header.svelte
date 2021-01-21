@@ -33,7 +33,7 @@
     width: 120px;
     -webkit-filter: drop-shadow(0px 0px 20px rgba(0,0,0,0.25));
     filter: drop-shadow(0px 0px 20px rgba(0,0,0,0.25));
-    }
+  }
   
   img:hover::after {
     content:"test";
@@ -85,4 +85,15 @@
     font-weight: 300;
   }
 
+  /* Mobile Styling */
+  @media only screen and (max-width: 450px) {
+    .navbar {
+      font-size: 15px;
+      margin-bottom: -30px;
+    }
+
+    img {
+      width: 90px;
+    }
+  }
 </style>

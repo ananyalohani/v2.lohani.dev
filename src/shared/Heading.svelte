@@ -39,4 +39,16 @@
     background-color: rgb(11, 105, 109);
     margin-top: -45px;
   }
+
+  /* Mobile Styling */
+  @media only screen and (max-width: 450px) {
+    h1 {
+      font-size: 30px;
+    }
+
+    .background-deco {
+      height: 10px;
+      margin-top: -39px;
+    }
+  }
 </style>

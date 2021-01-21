@@ -53,4 +53,13 @@
     transition: all 0.3s ease-in-out;
   }
 
+  @media only screen and (max-width: 450px) {
+    #contact {
+      max-width: 450px;
+    }
+
+    #scrollToTop {
+      margin-left: 70%;
+    }
+  }
 </style>

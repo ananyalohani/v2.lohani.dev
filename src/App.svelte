@@ -24,4 +24,16 @@
     max-width: 880px;
     margin: 40px auto;
   }
+
+  /* Mobile Styling */
+  @media only screen and (max-width: 450px) {
+    main {
+      font-family: 'Overpass Mono', monospace;
+      color: #D2EAED;
+      font-weight: 100;
+      width: 100% !important;
+      max-width: 450px;
+      margin: 0;
+    }
+  }
 </style>
