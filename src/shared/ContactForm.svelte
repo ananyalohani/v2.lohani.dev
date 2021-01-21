@@ -96,7 +96,11 @@
 
   @media only screen and (max-width: 550px) {
     .text-input {
-      width: 300px;
+      width: 97%;
+    }
+
+    textarea {
+      resize: vertical;
     }
   }
 </style>
