@@ -1,7 +1,13 @@
+<script>
+  import Heading from '../shared/Heading.svelte';
+  let headingText="Ananya Lohani";
+</script>
+
 <header>
   <div class="logo">
     <img src="images/favicons/android-chrome-512x512.png" alt="Ichii Logo" />
   </div>
+  <h2>{headingText}</h2>
   <div class="navbar">
     <ul>
       <li><a href="#about">About</a></li>
@@ -18,6 +24,15 @@
     color: #FFFFFF;
     font-family: 'Overpass Mono', monospace;
     text-align: center;
+  }
+
+  h2 {
+    font-weight: 500;
+    font-family: 'Overpass Mono', monospace;
+    color: #baebee8a;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
   }
 
   a {
@@ -86,7 +101,7 @@
   }
 
   /* Mobile Styling */
-  @media only screen and (max-width: 450px) {
+  @media only screen and (max-width: 550px) {
     .navbar {
       font-size: 15px;
       margin-bottom: -30px;
@@ -94,6 +109,10 @@
 
     img {
       width: 90px;
+    }
+
+    h2 {
+      font-size: 20px;
     }
   }
 </style>

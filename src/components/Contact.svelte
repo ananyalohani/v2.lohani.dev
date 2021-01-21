@@ -53,7 +53,7 @@
     transition: all 0.3s ease-in-out;
   }
 
-  @media only screen and (max-width: 450px) {
+  @media only screen and (max-width: 550px) {
     #contact {
       max-width: 450px;
     }

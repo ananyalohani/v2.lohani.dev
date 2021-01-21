@@ -26,7 +26,7 @@
   }
 
   /* Mobile Styling */
-  @media only screen and (max-width: 450px) {
+  @media only screen and (max-width: 550px) {
     main {
       font-family: 'Overpass Mono', monospace;
       color: #D2EAED;

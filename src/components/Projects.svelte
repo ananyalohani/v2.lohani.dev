@@ -19,7 +19,7 @@
   }
 
   /* Mobile Styling */
-  @media only screen and (max-width: 450px) {
+  @media only screen and (max-width: 550px) {
     #projects {
       margin-top: 50px;
     }

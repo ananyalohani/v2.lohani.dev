@@ -94,7 +94,7 @@
     opacity: 0.5;
   }
 
-  @media only screen and (max-width: 450px) {
+  @media only screen and (max-width: 550px) {
     .text-input {
       width: 300px;
     }

@@ -1,8 +1,9 @@
 <script>
   export let headingText;
+  export let invisibleOnPhone = true;
 </script>
 
-<div class="section-heading">
+<div class="section-heading" class:invisible={invisibleOnPhone}>
   <div class="wrapper">
     <h1>{headingText}</h1>
     <div class="background-deco"></div>
@@ -41,7 +42,7 @@
   }
 
   /* Mobile Styling */
-  @media only screen and (max-width: 450px) {
+  @media only screen and (max-width: 550px) {
     h1 {
       font-size: 30px;
     }
@@ -49,6 +50,10 @@
     .background-deco {
       height: 10px;
       margin-top: -39px;
+    }
+
+    .invisible {
+      display: none;
     }
   }
 </style>

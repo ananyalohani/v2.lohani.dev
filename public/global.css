@@ -52,9 +52,10 @@ input:disabled {
 }
 
 /* Mobile Styling */
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 550px) {
   body {
     width: 100%;
     padding: 20px;
+    font-size: 15px;
   }
 }
