@@ -1,11 +1,18 @@
 <script>
   import AOS from 'aos';
   AOS.init({
-    duration: 1200,
+    duration: 700,
+    once: true,
+    offset: 100,
   });
 </script>
 
-<div class="card" data-aos="zoom-in-up">
+<div 
+  class="card" 
+  data-aos="fade-up"
+  data-aos-offset="100"
+  data-aos-once="true"
+>
   <slot></slot>
 </div>
 
