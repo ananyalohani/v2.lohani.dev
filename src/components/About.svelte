@@ -19,7 +19,6 @@
 
 <style>
   #about {
-    color: #bae4eb;
     margin-top: 40px;
     font-family: 'Overpass Mono', monospace;
     font-weight: 300;
