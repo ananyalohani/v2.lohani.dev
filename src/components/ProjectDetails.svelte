@@ -1,13 +1,14 @@
 <script>
   import Card from '../shared/Card.svelte';
   export let project;
+  let currentColor = '#bae4eb';
 </script>
 
 <div class="project-details">
   <Card>
     <img src={project.logo} alt={project.title + " logo"} />
     <div class="body">
-      <h3><a href={project.link} target="_blank">{project.title}</a></h3>
+      <h3><a href={project.link} target="_blank">{project.title}</a> <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke={currentColor} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><g fill="none" fill-rule="evenodd"><path d="M18 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8c0-1.1.9-2 2-2h5M15 3h6v6M10 14L20.2 3.8"/></g></svg></h3>
       <p class="duration">{project.duration}</p>
       <p>{project.description}</p>
       <h4>Technologies Used:</h4>
