@@ -1,7 +1,7 @@
 <div class="social-icons">
   <div class="container">
     <img class="logo instagram" src="./images/socials/instagram.svg" alt="instagram logo"/>
-    <a href="https://instagram.com/ananyalohani/" target="_blank">
+    <a href="https://instagram.com/ananyalohani_/" target="_blank">
       <p class="logo-label">Instagram</p>
     </a>
   </div>
