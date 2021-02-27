@@ -4,7 +4,7 @@
     "logo": "../images/project-logos/IIITDPlaybook.png",
     "duration": "Jan '21 - Present",
     "description": "The only guide to hack IIITD. The playbook was created to provide IIITD students with multiple strategies that other students use, their experiences and stories, tools they can use to help them along their way through college.",
-    "technologies": ["React", "Firebase", "CSS"],
+    "technologies": ["React", "Google Firebase", "CSS"],
     "link": "https://github.com/iiitdplaybook/iiitdplaybook"
   },
   {
