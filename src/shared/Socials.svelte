@@ -39,11 +39,6 @@
     fill: #3db5bbd7;
   }
 
-  p {
-    /* margin-left: 5px; */
-    /* padding-right: 5px; */
-  }
-
   .logo-label {
     padding-left: 5px;
   }

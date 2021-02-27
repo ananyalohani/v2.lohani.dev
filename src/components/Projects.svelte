@@ -18,6 +18,10 @@
     margin-top: 50px;
   }
 
+  #projects {
+    margin-top: 80px;
+  }
+
   /* Mobile Styling */
   @media only screen and (max-width: 550px) {
     #projects {

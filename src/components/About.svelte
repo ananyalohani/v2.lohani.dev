@@ -10,7 +10,7 @@
     <p class="about-me">Hello, I am Ananya. Welcome to my website!
       <br/>
       <br/>
-      I am a 2nd year undergrad student at <a href="https://iiitd.ac.in/" target="_blank">IIIT Delhi</a>, majoring in Computer Science and Engineering. My recent interests include web development and UI/UX design. I am currently a Web Design intern at <a href="https://vincistationery.com" target="_blank">Vinci Stationery</a>.
+      I am a 2nd year undergrad student at <a href="https://iiitd.ac.in/" target="_blank">IIIT Delhi</a>, majoring in Computer Science and Engineering. My recent interests include web development and UI/UX design. I am currently a Web Design and Development intern at <a href="https://cse.iiitd.ac.in/" target="_blank">Department of CSE</a>, IIIT Delhi. I am also a part of the Web Development team of <a href='https://iiitdplaybook.web.app/'>IIITD Playbook</a>.
       <br/>
       <br/>
       I paint, sometimes. You can see all my artwork on my <a href="https://www.instagram.com/lohani_art/" target="_blank">art account</a>.</p>
@@ -66,11 +66,6 @@
       padding-top: 20px;
       padding-bottom: 10px;
       /* padding-left: 70px; */
-    }
-
-    .about-me {
-      /* padding-top: 30px; */
-      /* text-align: center; */
     }
 
     #about {
