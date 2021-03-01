@@ -37,6 +37,7 @@
   a {
     text-decoration: none;
     color: inherit;
+    border-bottom: none;
   }
 
   .navbar {
