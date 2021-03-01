@@ -14,7 +14,7 @@
   <Heading {headingText} />
   <p class="text">
     You can get in touch with me by filling the contact form below.
-    Alternately, you can email me at <a href="mailto:mail@ananyalohani.me">mail@ananyalohani.me.</a>
+    Alternately, you can email me at <a href="mailto:mail@ananyalohani.me">mail@ananyalohani.me</a>.
   </p>
   <p>
     You can (and should) follow me on:
