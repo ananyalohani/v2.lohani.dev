@@ -19,13 +19,15 @@ body {
 
 a {
   color: inherit;
+  border-bottom: solid 2px #4ac2ca5d;
+  text-decoration: none;
 }
 
 a:hover {
   color: #c7eff8;
   font-weight: 400;
   height: 22px;
-  background: rgba(11, 105, 109, 0.75);
+  background: rgba(11, 105, 109, 0.3);
   transition: all 0.3s ease-in-out;
 }
 

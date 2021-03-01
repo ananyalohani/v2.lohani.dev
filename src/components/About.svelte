@@ -52,6 +52,11 @@
     vertical-align: middle;
   }
 
+  a {
+    border-bottom: solid 2px #4ac2ca5d;
+    text-decoration: none;
+  }
+
   /* Mobile Styling */
   @media only screen and (max-width: 550px) {
 

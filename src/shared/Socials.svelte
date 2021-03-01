@@ -53,6 +53,7 @@
   a {
     text-decoration: none;
     position: relative;
+    border-bottom: none;
   }
 
   a::after {
