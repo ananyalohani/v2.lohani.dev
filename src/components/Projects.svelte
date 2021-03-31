@@ -7,7 +7,7 @@
 
 <div id="projects">
   <Heading {headingText} />
-  <p class="text">You can find all my projects on my <a href="https://github.com/ananyalohani/">GitHub account</a>. The most significant ones are mentioned below.</p>
+  <p class="text">You can find all my projects on my <a href="https://github.com/ananyalohani/">GitHub</a>. The most significant ones are mentioned below.</p>
   {#each projects as project}
     <ProjectDetails {project} />
   {/each}

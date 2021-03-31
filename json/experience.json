@@ -1,5 +1,13 @@
 [
   {
+    "jobTitle": "Web Development Intern",
+    "company": "Department of CSE, IIIT Delhi",
+    "logo": "./images/company-logos/iiitd.png",
+    "duration": "Feb '21 - Present",
+    "link": "https://cse.iiitd.ac.in/",
+    "responsibilities": "Currently redesiging the website. Implementing a headless CMS for fetching data about the website and the articles published by the department."
+  },
+  {
     "jobTitle": "Web Design Intern",
     "company": "Vinci Stationery",
     "logo": "./images/company-logos/vinci-stationery.png",
