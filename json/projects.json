@@ -1,5 +1,13 @@
 [
   {
+    "title": "Tiiime",
+    "logo": "../images/project-logos/Tiiime.png",
+    "duration": "Feb '21 - Apr '21",
+    "description": "A UI/UX prototyping project. Tiiime is a crowdsourced planner that notifies users of events/activities that are scheduled by the channels of IIIT Delhi, allows them to create their own events, and propose changes to existing events. The proposed changes are reflected on all the users’ apps (crowdsourcing).",
+    "technologies": ["Figma", "Excalidraw"],
+    "link": "https://mhr.cx/tiiime/"
+  },
+  {
     "title": "IIITD Playbook",
     "logo": "../images/project-logos/IIITDPlaybook.png",
     "duration": "Jan '21 - Present",
