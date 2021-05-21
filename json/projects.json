@@ -1,5 +1,13 @@
 [
   {
+    "title": "Mausam",
+    "logo": "../images/project-logos/mausam.png",
+    "duration": "May '21",
+    "description": "Mausam is a web app that fetches the weather data for the next 6 days from the Metaweather API. This application was created as a submission to a DevChallenges challenge.",
+    "technologies": ["React", "TypeScript", "TailwindCSS"],
+    "link": "https://mausam.vercel.app/"
+  },
+  {
     "title": "Tiiime",
     "logo": "../images/project-logos/Tiiime.png",
     "duration": "Feb '21 - Apr '21",
@@ -11,7 +19,7 @@
     "title": "IIITD Playbook",
     "logo": "../images/project-logos/IIITDPlaybook.png",
     "duration": "Jan '21 - Present",
-    "description": "The only guide to hack IIITD. The playbook was created to provide IIITD students with multiple strategies that other students use, their experiences and stories, tools they can use to help them along their way through college.",
+    "description": "The playbook was created to provide IIITD students with multiple strategies that other students use, their experiences and stories, tools they can use to help them along their way through college.",
     "technologies": ["React", "Google Firebase", "CSS"],
     "link": "https://github.com/iiitdplaybook/iiitdplaybook"
   },
