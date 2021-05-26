@@ -38,6 +38,7 @@
     text-decoration: none;
     color: inherit;
     border-bottom: none;
+    padding: 5px 0;
   }
 
   .navbar {

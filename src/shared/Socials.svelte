@@ -8,13 +8,13 @@
   <div class="container">
     <img class="logo github" src="./images/socials/github.svg" alt="github logo"/>
     <a href="https://github.com/ananyalohani/" target="_blank">
-      <p class="logo-label">Github</p>
+      <p class="logo-label">GitHub</p>
     </a>
   </div>
   <div class="container">
     <img class="logo linkedin" src="./images/socials/linkedin.svg" alt="linkedin logo"/>
     <a href="https://linkedin.com/in/ananyalohani/" target="_blank">
-      <p class="logo-label">Linkedin</p>
+      <p class="logo-label">LinkedIn</p>
     </a>
   </div>
   <div class="container">
