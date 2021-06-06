@@ -10,8 +10,10 @@
     <p class="about-me">Hello, I am Ananya. Welcome to my website!
       <br/>
       <br/>
-      I am a 2nd year undergrad student at <a href="https://iiitd.ac.in/" target="_blank">IIIT Delhi</a>, majoring in Computer Science and Engineering. My recent interests include web development and UI/UX design. I am currently a Web Design and Development intern at <a href="https://cse.iiitd.ac.in/" target="_blank">Department of CSE</a>, IIIT Delhi. I am also a part of the Web Development team of <a href='https://iiitdplaybook.web.app/'>IIITD Playbook</a>.
+      I am a 3rd year undergrad at <a href="https://iiitd.ac.in/" target="_blank">IIIT Delhi</a>, majoring in Computer Science and Engineering. My recent interests include frontend development and UI/UX design. I am currently a Web Design and Development Intern at <a href="https://cse.iiitd.ac.in/" target="_blank">Department of CSE</a>, IIIT Delhi.
       <br/>
+      <br/>
+      I get bored of things easily and I'm constantly looking for new things to learn.
       <br/>
       I paint, sometimes. You can see all my artwork on my <a href="https://www.instagram.com/lohani_art/" target="_blank">art account</a>.</p>
   </div>
@@ -29,6 +31,7 @@
     width: 100%;
     display: flex;
     flex-direction: row;
+    margin-top: 30px;
     /* flex-wrap: wrap; */
     align-items: center;
     justify-content: center;
@@ -37,7 +40,7 @@
   }
 
   .about-me {
-    padding-top: 30px;
+    /* padding-top: 30px; */
   }
 
   .my-photo {
@@ -47,9 +50,15 @@
     -webkit-filter: drop-shadow(0px 0px 20px rgba(0,0,0,0.25));
     filter: drop-shadow(0px 0px 20px rgba(0,0,0,0.25));
   }
-  
+
   p {
     vertical-align: middle;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .section-content {
+      flex-direction: column;
+    }
   }
 
   /* Mobile Styling */

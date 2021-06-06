@@ -22,7 +22,7 @@
     color: #D2EAED;
     font-weight: 100;
     max-width: 880px;
-    margin: 40px auto;
+    margin: 0 auto;
   }
 
   /* Mobile Styling */
@@ -32,8 +32,7 @@
       color: #D2EAED;
       font-weight: 100;
       width: 100% !important;
-      max-width: 450px;
-      margin: 0;
+      margin: 0 auto;
     }
   }
 </style>

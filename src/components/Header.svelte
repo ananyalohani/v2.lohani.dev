@@ -23,15 +23,16 @@
     color: #FFFFFF;
     font-family: 'Overpass Mono', monospace;
     text-align: center;
+    margin-top: 20px;
   }
 
   h2 {
+    font-size: 22px;
     font-weight: 500;
-    font-family: 'Overpass Mono', monospace;
-    color: #baebee8a;
+    font-family: 'Overpass', sans-serif;
+    color: #baebeeaf;
     margin-top: -20px;
-    margin-bottom: 30px;
-    padding-bottom: 10px;
+    margin-bottom: 20px;
   }
 
   a {
@@ -50,6 +51,7 @@
   }
 
   ul {
+    font-size: 14px;
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -62,6 +64,10 @@
     position: relative;
   }
 
+  a:hover {
+    background: transparent;
+  }
+
   a::after {
     content:"";
     width: 100%;
@@ -71,11 +77,10 @@
     bottom: 3px;
     left: 0;
     background: rgba(126, 198, 207, 0.5);
-    transition: all 0.3s ease-in-out;
   }
 
   a:hover::after {
-    height: 5px;
+    height: 2px;
   }
 
   a:hover {
@@ -85,6 +90,10 @@
   /* Mobile Styling */
   @media only screen and (max-width: 550px) {
     .navbar {
+      border-radius: 0;
+      left: 0;
+      /* width: 100vw; */
+      margin: 0;
       font-size: 15px;
       margin-bottom: -30px;
     }

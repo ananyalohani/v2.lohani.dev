@@ -62,14 +62,14 @@
     height: 0;
     display: inline;
     position: absolute;
-    bottom: -15px;
+    bottom: -19px;
     left: 6px;
     background: rgba(102, 165, 173, 0.5);
     /* transition: all 0.3s ; */
   }
 
   a:hover::after {
-    height: 6px;
+    height: 2px;
   }
 
   a:hover {

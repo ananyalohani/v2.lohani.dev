@@ -26,7 +26,7 @@
 
 <style>
   #contact {
-    padding-top: 40px;
+    margin-top: 40px;
   }
 
   .text {
@@ -35,10 +35,11 @@
 
   #scrollToTop {
     /* text-decoration: underline; */
+    white-space: nowrap;
     cursor: pointer;
     width: fit-content;
     position: relative;
-    margin-left: 87%;
+    /* margin-left: 87%; */
     /* margin-bottom: 20px; */
     padding-bottom: 0;
     margin-bottom: 0;
@@ -50,16 +51,6 @@
     font-weight: 500;
     /* height: 22px; */
     background: rgba(11, 105, 109, 0.3);
-    transition: all 0.3s ease-in-out;
-  }
-
-  @media only screen and (max-width: 550px) {
-    #contact {
-      max-width: 450px;
-    }
-
-    #scrollToTop {
-      margin-left: 70%;
-    }
+    transition: all 0.1s ease-in-out;
   }
 </style>

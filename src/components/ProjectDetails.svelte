@@ -56,14 +56,14 @@
     height: 0;
     display: block;
     position: absolute;
-    bottom: 1px;
+    bottom: 0px;
     left: 0;
     background: rgba(102, 165, 173, 0.5);
-    transition: all 0.3s ease-in-out;
+    /* transition: all 0.1s ease-in-out; */
   }
 
   a:hover::after {
-    height: 5px;
+    height: 2px;
   }
 
   a:hover {

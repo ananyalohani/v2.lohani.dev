@@ -62,7 +62,7 @@
     border: solid 1px #245053;
     color: inherit;
   }
-  
+
   .text-input:focus {
     background-color: #27565da9;
     outline: none !important;
@@ -94,7 +94,7 @@
     opacity: 0.5;
   }
 
-  @media only screen and (max-width: 550px) {
+  @media only screen and (max-width: 700px) {
     .text-input {
       width: 97%;
     }

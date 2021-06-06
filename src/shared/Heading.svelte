@@ -36,9 +36,9 @@
   }
 
   .background-deco {
-    height: 10px;
+    height: 6px;
     background-color: rgb(11, 105, 109);
-    margin-top: -45px;
+    margin-top: -40px;
   }
 
   /* Mobile Styling */
