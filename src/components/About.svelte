@@ -39,10 +39,6 @@
     line-height: 1.75;
   }
 
-  .about-me {
-    /* padding-top: 30px; */
-  }
-
   .my-photo {
     height: 350px;
     width: 350px;
