@@ -1,6 +1,6 @@
 <script>
   import Logo from '../shared/Logo.svelte';
-  let headingText="Ananya Lohani";
+  let headingText = 'Ananya Lohani';
 </script>
 
 <header>
@@ -18,9 +18,8 @@
 </header>
 
 <style>
-
   header {
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: 'Overpass Mono', monospace;
     text-align: center;
     margin-top: 20px;
@@ -43,7 +42,7 @@
   }
 
   .navbar {
-    background-color: #0E676B;
+    background-color: #0e676b;
     padding: 9px;
     font-size: 17px;
     box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.25);
@@ -69,7 +68,7 @@
   }
 
   a::after {
-    content:"";
+    content: '';
     width: 100%;
     height: 0;
     display: block;

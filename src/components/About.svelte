@@ -1,21 +1,29 @@
 <script>
   import Heading from '../shared/Heading.svelte';
-  let headingText = "About";
+  let headingText = 'About';
 </script>
 
 <div id="about">
-  <Heading {headingText} invisibleOnPhone="true"/>
+  <Heading {headingText} invisibleOnPhone="true" />
   <div class="section-content">
-    <img class="my-photo" src="./images/my-photo.png" alt="Ananya Lohani"/>
-    <p class="about-me">Hello, I am Ananya. Welcome to my website!
-      <br/>
-      <br/>
-      I am a 3rd year undergrad at <a href="https://iiitd.ac.in/" target="_blank">IIIT Delhi</a>, majoring in Computer Science and Engineering. My recent interests include frontend development and UI/UX design. I am currently a Web Design and Development Intern at <a href="https://cse.iiitd.ac.in/" target="_blank">Department of CSE</a>, IIIT Delhi.
-      <br/>
-      <br/>
+    <img class="my-photo" src="./images/my-photo.png" alt="Ananya Lohani" />
+    <p class="about-me">
+      Hello, I am Ananya. Welcome to my website!
+      <br />
+      <br />
+      I am a 3rd year undergrad at
+      <a href="https://iiitd.ac.in/" target="_blank">IIIT Delhi</a>, majoring in
+      Computer Science and Engineering. I am currently a Frontend Engineer at
+      <a href="https://tweek-labs.com" target="_blank">Tweek Labs</a>.
+      <br />
+      <br />
       I get bored of things easily and I'm constantly looking for new things to learn.
-      <br/>
-      I paint, sometimes. You can see all my artwork on my <a href="https://www.instagram.com/lohani_art/" target="_blank">art account</a>.</p>
+      <br />
+      I paint, sometimes. You can see all my artwork on my
+      <a href="https://www.instagram.com/lohani_art/" target="_blank"
+        >art account</a
+      >.
+    </p>
   </div>
 </div>
 
@@ -43,8 +51,8 @@
     height: 350px;
     width: 350px;
     padding: 40px;
-    -webkit-filter: drop-shadow(0px 0px 20px rgba(0,0,0,0.25));
-    filter: drop-shadow(0px 0px 20px rgba(0,0,0,0.25));
+    -webkit-filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.25));
+    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.25));
   }
 
   p {
@@ -59,7 +67,6 @@
 
   /* Mobile Styling */
   @media only screen and (max-width: 550px) {
-
     .section-content {
       flex-direction: column;
       align-items: center;
@@ -77,5 +84,4 @@
       margin-top: 50px;
     }
   }
-
 </style>

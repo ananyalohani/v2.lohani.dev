@@ -1,17 +1,22 @@
 <script>
-  import tippy from "sveltejs-tippy";
+  import tippy from 'sveltejs-tippy';
 
   const props = {
-    content: "<span class='tooltip'><p><b>一意</b><p class='pronunciation'>/ichii/</p>Unique, as in 'Ananya'</p></span>",
+    content:
+      "<span class='tooltip'><p><b>一意</b><p class='pronunciation'>/ichii/</p>Unique, as in 'Ananya'</p></span>",
     allowHTML: true,
-    animation: "fade",
+    animation: 'fade',
     arrow: false,
-    placement: "bottom",
+    placement: 'bottom',
   };
 </script>
 
 <div class="logo">
-  <img src="images/favicons/android-chrome-512x512.png" alt="Ichii Logo" use:tippy={props} />
+  <img
+    src="images/favicons/android-chrome-512x512.png"
+    alt="Ichii Logo"
+    use:tippy={props}
+  />
 </div>
 
 <style>
@@ -27,9 +32,9 @@
     font-size: 14px;
     /* white-space: normal; */
     z-index: 2;
-    border-radius: 5px ;
+    border-radius: 5px;
     text-align: left;
-    background:#c3eff1d3;
+    background: #c3eff1d3;
     line-height: 1.5;
   }
 
@@ -53,8 +58,8 @@
 
   img {
     width: 100px;
-    -webkit-filter: drop-shadow(0px 0px 20px rgba(0,0,0,0.25));
-    filter: drop-shadow(0px 0px 20px rgba(0,0,0,0.25));
+    -webkit-filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.25));
+    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.25));
   }
 
   /* Mobile Styling */

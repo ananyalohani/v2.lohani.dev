@@ -6,7 +6,7 @@
 <div class="section-heading" class:invisible={invisibleOnPhone}>
   <div class="wrapper">
     <h1>{headingText}</h1>
-    <div class="background-deco"></div>
+    <div class="background-deco" />
   </div>
 </div>
 

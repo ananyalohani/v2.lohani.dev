@@ -6,9 +6,27 @@
 
 <div class="exp-details">
   <Card>
-    <img src={exp.logo} alt={exp.company + " logo"} />
+    <img src={exp.logo} alt={exp.company + ' logo'} />
     <div class="body">
-      <h3><a href={exp.link} target="_blank">{exp.company}</a> <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke={currentColor} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><g fill="none" fill-rule="evenodd"><path d="M18 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8c0-1.1.9-2 2-2h5M15 3h6v6M10 14L20.2 3.8"/></g></svg></h3>
+      <h3>
+        <a href={exp.link} target="_blank">{exp.company}</a>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="15"
+          height="15"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke={currentColor}
+          strokeWidth="1.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          ><g fill="none" fill-rule="evenodd"
+            ><path
+              d="M18 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8c0-1.1.9-2 2-2h5M15 3h6v6M10 14L20.2 3.8"
+            /></g
+          ></svg
+        >
+      </h3>
       <p class="job-title">{exp.jobTitle}</p>
       <p class="duration">{exp.duration}</p>
       <p>{exp.responsibilities}</p>
@@ -18,17 +36,19 @@
 
 <style>
   p {
-    font-size: 15px;
-    color:#bae4eb;
+    font-size: 14px;
+    line-height: 1.25;
+    color: #bae4eb;
     font-weight: 100;
   }
 
   img {
     max-width: 140px;
     max-height: 140px;
-    padding: 20px 20px 40px 20px;
-    -webkit-filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.25));
-    filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.25));
+    margin: 20px 20px 40px 20px;
+    -webkit-filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.25));
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
   }
 
   h3 {
@@ -46,7 +66,7 @@
   }
 
   a::after {
-    content:"";
+    content: '';
     width: 100%;
     height: 0;
     display: block;
@@ -67,7 +87,7 @@
   }
 
   .duration {
-    font-size:smaller;
+    font-size: smaller;
   }
 
   .body {

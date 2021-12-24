@@ -1,11 +1,27 @@
 [
   {
+    "jobTitle": "Frontend Engineer",
+    "company": "Tweek Labs",
+    "logo": "https://www.tweek-labs.com/assets/logos/logo_only.png",
+    "duration": "Oct '21 - Present",
+    "link": "https://tweek-labs.com",
+    "responsibilities": "Currently designing and developing the official mobile app and website of the company."
+  },
+  {
+    "jobTitle": "Engage Mentee",
+    "company": "Microsoft",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+    "duration": "Jun '21 - Jul '21",
+    "link": "https://www.microsoft.com/en-in",
+    "responsibilities": "Designed and developed a fully-featured clone of Microsoft Teams using Agile methods, under the guidance of Mr. Shanav Asija, Senior SWE at Microsoft."
+  },
+  {
     "jobTitle": "Web Development Intern",
     "company": "Department of CSE, IIIT Delhi",
     "logo": "./images/company-logos/iiitd.png",
-    "duration": "Feb '21 - Present",
+    "duration": "Feb '21 - Jun '21",
     "link": "https://cse.iiitd.ac.in/",
-    "responsibilities": "Currently redesiging the website. Implementing a headless CMS for fetching data about the website and the articles published by the department."
+    "responsibilities": "Designed and developed the official website of the CSE department using GatsbyJS. Built a headless CMS using NetlifyCMS and improved the management of website content and articles."
   },
   {
     "jobTitle": "Web Design Intern",

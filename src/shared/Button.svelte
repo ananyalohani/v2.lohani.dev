@@ -3,12 +3,12 @@
 </script>
 
 <button {type}>
-  <slot></slot>
+  <slot />
 </button>
 
 <style>
   button {
-    background: #0E676B;
+    background: #0e676b;
     outline: none;
     color: white;
     font-family: 'Overpass', sans-serif;

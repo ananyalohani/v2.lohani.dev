@@ -19,7 +19,7 @@
 <style>
   main {
     font-family: 'Overpass Mono', monospace;
-    color: #D2EAED;
+    color: #d2eaed;
     font-weight: 100;
     max-width: 880px;
     margin: 0 auto;
@@ -29,7 +29,7 @@
   @media only screen and (max-width: 550px) {
     main {
       font-family: 'Overpass Mono', monospace;
-      color: #D2EAED;
+      color: #d2eaed;
       font-weight: 100;
       width: 100% !important;
       margin: 0 auto;

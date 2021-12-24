@@ -2,7 +2,7 @@
   import Heading from '../shared/Heading.svelte';
   import Socials from '../shared/Socials.svelte';
   import ContactForm from '../shared/ContactForm.svelte';
-  let headingText="Contact";
+  let headingText = 'Contact';
 
   function topFunction() {
     document.body.scrollTop = 0; // For Safari
@@ -13,12 +13,11 @@
 <div id="contact">
   <Heading {headingText} />
   <p class="text">
-    You can get in touch with me by filling the contact form below.
-    Alternately, you can email me at <a href="mailto:mail@ananyalohani.me">mail@ananyalohani.me</a>.
+    You can get in touch with me by filling the contact form below. Alternately,
+    you can email me at <a href="mailto:ananya@lohani.dev">ananya@lohani.dev</a
+    >.
   </p>
-  <p>
-    You can (and should) follow me on:
-  </p>
+  <p>You can follow me on:</p>
   <Socials />
   <ContactForm />
   <p on:click={topFunction} id="scrollToTop">Back to top ↑</p>

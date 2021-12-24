@@ -1,5 +1,20 @@
 [
   {
+    "title": "Teams",
+    "logo": "https://msft.lohani.dev/images/msft_logo.png",
+    "duration": "Jun '21 - Jul '21",
+    "description": "A fully-featured video conferencing platform that supports video call, group chat, authentication, displaying network quality status, background filters, etc. Equipped to handle 25+ participants exchanging media via an SFU provided by Twilio.",
+    "technologies": [
+      "React + Next.js",
+      "TailwindCSS",
+      "Express",
+      "MongoDB",
+      "Mongoose",
+      "Twilio Video"
+    ],
+    "link": "https://msft.lohani.dev/"
+  },
+  {
     "title": "Mausam",
     "logo": "../images/project-logos/mausam.png",
     "duration": "May '21",
@@ -38,13 +53,5 @@
     "description": "Coded a Linux shell called 'lohanish' implementing a total of 30 commands using C. Utilised several standard C and Linux libraries.",
     "technologies": ["C", "Linux"],
     "link": "https://github.com/ananyalohani/lohanish"
-  },
-  {
-    "title": "Perceptris",
-    "logo": "../images/project-logos/Perceptris.png",
-    "duration": "Aug '19 - Sep '19",
-    "description": "Built a futuristic version of the game Tetris which uses ultrasonic and touch sensors along with LED bulbs to make the game more human-interactive. Can be played in both Single and Multiplayer modes. Worked in a team of 3 under the guidance of Dr. Aman Parnami.",
-    "technologies": ["C++", "Processing", "Arduino"],
-    "link": "https://github.com/ananyalohani/Perceptris"
   }
 ]
