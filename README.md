@@ -1,6 +1,6 @@
-# ananyalohani.me
+# v2.lohani.dev
 
-My personal/portfolio website. Made using [Svelte](https://svelte.dev/).
+The second edition of my personal/portfolio website. Made using [Svelte](https://svelte.dev/).
 
 ## Development
 
